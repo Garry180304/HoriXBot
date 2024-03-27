@@ -175,7 +175,7 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
 
                 out = start_panel(_)
-                await message.reply_sticker("CAACAgQAAxkBAAEGNCdlmOVoVdzYjXDhFD-RBU4NEfAmGQACLwwAAuqTAVKXwqXcqn7CKDQE")
+                await message.reply_sticker("CAACAgUAAxkBAAECfjdmBCuwQOCy2bVpRGUpnGUvkB2J-QAC1xAAAsZDIFRJunDJQRIdMx4E")
                 await message.reply_video(
                     video=config.START_VID_URL,
                     caption=_["start_3"].format(
