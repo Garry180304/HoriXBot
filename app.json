@@ -84,7 +84,7 @@
        },
       "START_VID_URL": {
         "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://graph.org/file/8f5299f1d37a3ae17ecbc.mp4",
+        "value": "https://graph.org/file/937e10d39716e624f4b1c.mp4",
         "required": false
       },
       "START_IMG_URL": {
