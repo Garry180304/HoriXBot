@@ -32,7 +32,7 @@ video_urls = [
 
 # Define a list of animated emojis
 animated_emojis = [
-    "🎭", "🧨", "🗿", "⚡", "🔥", "👀", "💞", "✨", "💫", "🌚", "🎊", "🎉",
+    "🎭", "🧨", "❄️", "⚡", "🔥", "👀", "💞", "✨", "💫", "🌚", "🎊", "🎉",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -103,7 +103,7 @@ async def start_pm(client, message: Message, _):
         # Send the selected video with the random caption
         initial_message = await message.reply_video(
             video=selected_video_url,
-            caption="Bot is initialising...",
+            caption=f"Hey {message.from_user.mention},\n\n🌟 Initializing... Stand by for some fun! 🎬",
         )
         
         # Randomly select an animated emoji
@@ -119,7 +119,7 @@ async def start_pm(client, message: Message, _):
         await emoji_message.delete()
         
         # Edit the initial message caption
-        await initial_message.edit_caption("✅ Bot is initialized.")
+        await initial_message.edit_caption(f"Hey {message.from_user.mention},\n\n✅ Bot initialized and ready to roll! Let's get started! 🚀")
         
         # Send the start message
         await message.reply_text(
