@@ -81,6 +81,11 @@
         "description": "Time after which you're assistant account will leave chats automatically. u want off use False To None Leave auto assis from groups",
         "value": "True",
         "required": false
+       },
+      "START_VID_URL": {
+        "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
+        "value": "https://graph.org/file/8f5299f1d37a3ae17ecbc.mp4",
+        "required": false
       },
       "START_IMG_URL": {
         "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
