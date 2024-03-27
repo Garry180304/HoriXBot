@@ -138,10 +138,13 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
+    buttons = [
+        [InlineKeyboardButton(text=text, callback_data=f"start_{text.lower()}")] for text in out
+    ]
     await message.reply_video(
         video=config.START_VID_URL,
         caption=_["start_2"].format(app.mention, get_readable_time(uptime)),
-        reply_markup=InlineKeyboardMarkup(out, resize_keyboard=True), 
+        reply_markup=InlineKeyboardMarkup(buttons),
     )
     return await add_served_chat(message.chat.id)
 
