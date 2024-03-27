@@ -25,7 +25,7 @@ from AnieXEricaMusic.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-# Define a list of image URLs
+# Define a list of video URLs
 video_urls = [
     "https://graph.org/file/8f5299f1d37a3ae17ecbc.mp4",
 ]
@@ -44,8 +44,8 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            return await message.reply_photo(
-                photo=config.START_IMG_URL,
+            return await message.reply_video(
+                video=config.START_VID_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -103,7 +103,7 @@ async def start_pm(client, message: Message, _):
         # Send the selected video with the random caption
         initial_message = await message.reply_video(
             video=selected_video_url,
-            caption="Bot is starting...",
+            caption="Bot is initialising...",
         )
         
         # Randomly select an animated emoji
@@ -113,13 +113,13 @@ async def start_pm(client, message: Message, _):
         emoji_message = await message.reply_text(selected_emoji)
         
         # Wait for a short duration (6-7 seconds)
-        await asyncio.sleep(random.randint(6, 7))
+        await asyncio.sleep(random.randint(3, 4))
         
         # Delete the animated emoji message
         await emoji_message.delete()
         
         # Edit the initial message caption
-        await initial_message.edit_caption("Bot is initialized.")
+        await initial_message.edit_caption("✅ Bot is initialized.")
         
         # Send the start message
         await message.reply_text(
@@ -138,8 +138,8 @@ async def start_pm(client, message: Message, _):
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
-    await message.reply_photo(
-        photo=config.START_IMG_URL,
+    await message.reply_video(
+        video=config.START_VID_URL,
         caption=_["start_2"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
@@ -174,8 +174,8 @@ async def welcome(client, message: Message):
 
                 out = start_panel(_)
                 await message.reply_sticker("CAACAgQAAxkBAAEGNCdlmOVoVdzYjXDhFD-RBU4NEfAmGQACLwwAAuqTAVKXwqXcqn7CKDQE")
-                await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                await message.reply_video(
+                    video=config.START_VID_URL,
                     caption=_["start_3"].format(
                         message.from_user.first_name,
                         app.mention,
