@@ -45,6 +45,8 @@ autoclean = []
 confirmer = {}
 
 
+
+START_VID_URL = getenv("START_VID_URL", "https://graph.org/file/8f5299f1d37a3ae17ecbc.mp4")
 START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
 PLAYLIST_IMG_URL = "https://graph.org/file/20fffce710f329d6f0a85.jpg"
