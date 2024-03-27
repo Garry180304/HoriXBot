@@ -141,7 +141,7 @@ async def start_gp(client, message: Message, _):
     await message.reply_video(
         video=config.START_VID_URL,
         caption=_["start_2"].format(app.mention, get_readable_time(uptime)),
-        reply_markup=InlineKeyboardMarkup(out),
+        reply_markup=InlineKeyboardMarkup(out, resize_keyboard=True), 
     )
     return await add_served_chat(message.chat.id)
 
