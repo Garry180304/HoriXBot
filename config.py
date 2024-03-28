@@ -46,7 +46,7 @@ confirmer = {}
 
 
 
-START_VID_URL = getenv("START_VID_URL", "https://graph.org/file/937e10d39716e624f4b1c.mp4")
+START_VID_URL = getenv("START_VID_URL", "https://graph.org/file/104c3dbe1d78f4f69dbf4.mp4")
 START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
 PLAYLIST_IMG_URL = "https://graph.org/file/20fffce710f329d6f0a85.jpg"
