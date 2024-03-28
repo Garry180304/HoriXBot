@@ -69,7 +69,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Garry180304/AnieXEricaMusic",
+        "value": "https://github.com/Garry180304/HoriXBot",
         "required": false
       },
       "UPSTREAM_BRANCH": {
@@ -84,7 +84,7 @@
        },
       "START_VID_URL": {
         "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://graph.org/file/937e10d39716e624f4b1c.mp4",
+        "value": "https://graph.org/file/104c3dbe1d78f4f69dbf4.mp4",
         "required": false
       },
       "START_IMG_URL": {
