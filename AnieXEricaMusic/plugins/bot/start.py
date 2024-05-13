@@ -32,7 +32,7 @@ video_urls = [
 
 # Define a list of animated emojis
 animated_emojis = [
-    "🎭", "🧨", "❄️", "⚡", "🔥", "👀", "💞", "✨", "💫", "🌚", "🎊", "🎉",
+    "🦋", "⚡", "❄️", "❤️", "🔥", "❄️", "💞", "✨", "❄️", "❄️", "❄️", "❄️",
 ]
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
