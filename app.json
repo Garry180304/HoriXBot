@@ -84,22 +84,22 @@
        },
       "START_VID_URL": {
         "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://graph.org/file/104c3dbe1d78f4f69dbf4.mp4",
+        "value": "https://graph.org/file/fc02db2630129b664d13c.mp4",
         "required": false
       },
       "START_IMG_URL": {
         "description": "Your Bot Start Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+        "value": "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg",
         "required": false
       },
       "PING_IMG_URL": {
         "description": "Your Bot Ping Check Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+        "value": "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg",
         "required": false
       },
       "STATS_IMG_URL": {
         "description": "Your Bot Stats Time Pic tgm link from @Sophia_x_MusicBot on Telegram.",
-        "value": "https://telegra.ph/file/b37803a767b15e939513d.png",
+        "value": "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg",
         "required": false
       },
       "LOGGER_ID": {
