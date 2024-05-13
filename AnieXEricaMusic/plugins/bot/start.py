@@ -27,7 +27,7 @@ from strings import get_string
 
 # Define a list of video URLs
 video_urls = [
-    "https://graph.org/file/104c3dbe1d78f4f69dbf4.mp4",
+    "https://graph.org/file/fc02db2630129b664d13c.mp4",
 ]
 
 # Define a list of animated emojis
