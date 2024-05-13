@@ -12,16 +12,16 @@ BOT_TOKEN = getenv("BOT_TOKEN","")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "9999"))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
-OWNER_ID = int(getenv("OWNER_ID", 6473663036))
-OWNER = int(getenv("OWNER", 6473663036))
+OWNER_ID = int(getenv("OWNER_ID", 6051497133))
+OWNER = int(getenv("OWNER", 6051497133))
 OWNER_USERNAME = getenv("OWNER_USERNAME","New_AMBOT")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/Garry180304/HoriXBot")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN",None)
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/HOST_EVENT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/RDJ_ANIME_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/originsoulcom")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ENGLISH_CHAT_AF")
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", 7000))
@@ -46,19 +46,19 @@ confirmer = {}
 
 
 
-START_VID_URL = getenv("START_VID_URL", "https://graph.org/file/104c3dbe1d78f4f69dbf4.mp4")
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/89b9c7267580c47ced90d.jpg")
-PLAYLIST_IMG_URL = "https://graph.org/file/20fffce710f329d6f0a85.jpg"
-STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg")
-TELEGRAM_AUDIO_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-STREAM_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/a3df81d8d9bb25c8da1ad.jpg"
+START_VID_URL = getenv("START_VID_URL", "https://graph.org/file/fc02db2630129b664d13c.mp4")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/b2b7c7204692486b644bb.jpg")
+PLAYLIST_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+STATS_IMG_URL = getenv("STATS_IMG_URL", "https://graph.org/file/2d1cb79eeaffb6b24760c.jpg")
+TELEGRAM_AUDIO_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+STREAM_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/7c6ade7326c1e4d5fe301.jpg"
 
 
 def time_to_seconds(time):
